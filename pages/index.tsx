@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Page } from '../components/Page'
 
 const demoProps = {
   user: {},
@@ -18,7 +17,6 @@ export default function Home() {
       </Head>
 
       {/* Including demo props here for example */}
-      <Page {...demoProps} />
 
       <footer className={styles.footer}>
         <a
