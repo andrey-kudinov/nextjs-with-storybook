@@ -15,3 +15,8 @@ export const MyLinkTest = Template.bind({})
 MyLinkTest.args = {
   title: 'My Link'
 }
+
+export const MyLinkTest2 = Template.bind({})
+MyLinkTest2.args = {
+  title: 'My Link 2'
+}
